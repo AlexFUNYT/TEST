@@ -1,0 +1,60 @@
+.px-6 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.image-row-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* опционально: по центру страницы */
+    align-items: center;     /* опционально: вертикальное выравнивание */
+    margin-top: 20px;        /* опционально: отступ сверху */
+}
+
+.image-row-article-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.article-card {
+    width: 30%;
+}
+
+.article-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.article-card .caption {
+    color: #000000;
+    margin: 10px 0 4px;
+    font-weight: 500;
+}
+
+.article-card .author {
+    color: red;
+    margin: 0;
+}
+
+.image-row-article-bottom img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.image-row-article img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.text-green-article {
+    font-weight: 600;
+    color: #00DD07;
+}
